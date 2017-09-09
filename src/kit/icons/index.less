@@ -1,0 +1,19 @@
+@import "../../atoms/colors.less";
+
+.iconKitList {
+    display: grid;
+    grid-template-columns: repeat(6, 140px);
+    grid-gap: 0px;
+    grid-auto-rows: minmax(70px, auto);
+    width: 900px;
+    margin: auto;
+}
+
+.iconKitElement {
+    display: flex;
+    flex-direction: column;
+    justify-content: baseline;
+    align-items: center;
+    background: @complementary-neutral-light;
+    margin: 10px;
+}
